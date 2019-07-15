@@ -40,7 +40,7 @@ li a{
     height: 100%;
     display: block;
     color: white;
-    padding-right: 28px;
+    padding: 28px;
     padding-top: 16px;
     text-decoration: none;
 }
@@ -94,7 +94,7 @@ li a:hover {
 .aside1 li{
     background-color: #F5B4B3;
     height: 50px;
-    padding-left: 15px;
+    
     margin-bottom: 10px;
     width: 100%;
     text-align: initial;
