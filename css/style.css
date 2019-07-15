@@ -1,5 +1,5 @@
 body{
-    font font-family: cursive;
+    font-family: Arial, Helvetica, sans-serif;
 }
 #container{
     height: auto;
@@ -9,7 +9,6 @@ body{
 #header{
     padding: 7px;
     height: 50px;
-    
     background-color: #ff9999;
     position: relative;
     color: white;
@@ -27,67 +26,53 @@ body{
     height: 100%;
     width: 350px;
     float: right;
-    
 }
-ul {
+ul{
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  
 }
-
-li {
-  float: left;
-    
+li{
+  float: left;  
 }
-
-li a {
+li a{
     height: 100%;
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+    display: block;
+    color: white;
+    padding-right: 28px;
+    padding-top: 16px;
+    text-decoration: none;
 }
-
 li a:hover {
-  background-color: white;
+    background-color: white;
     color: pink;
 }
 #key{
-    
     padding: auto;
     height: 200px;
-    
     position: relative;
 }
 #middle{
     height: 370px;
-    
 }
 #article{
     margin-top: 10px;
     padding: auto;
-   height: 300px;
+    height: 300px;
     width: 630px;
     float: right;
     position: relative
 }
-
-
-
 #aside{
     margin-top: 10px;
     padding: auto;
     height: 350px;
-    width: 300px;
-    
+    width: 300px;   
     float: left;
     position: relative;
 }
 #footer{
-    
     padding-top: 50px;
     height: 100px;
     background-color: grey;
@@ -96,7 +81,6 @@ li a:hover {
     text-align: center;
     color: white;
 }
-
 #top{
     width: 100%;
     height: 100%;
@@ -104,36 +88,33 @@ li a:hover {
 .aside1{
     height: 180px;
     width: 100%;
-    
     margin-bottom: 10px;
+    align-content: unset;
 }
 .aside1 li{
     background-color: #F5B4B3;
-  height: 50px;
-  margin-bottom: 10px;
+    height: 50px;
+    padding-left: 15px;
+    margin-bottom: 10px;
     width: 100%;
+    text-align: initial;
 }
 #banner{
     width: 100%;
     height: 100%;
 }
-
 form{
-    margin: 10px auto;
-    
+    margin: 10px auto;   
     width: 95%
 }
 input{
     width: 480px;
-    
 }
 .inp{
     margin: 5px;
 }
-
 .radB{
-    width: auto;
-    
+    width: auto;   
 }
 #submit{
     width: 80px;
